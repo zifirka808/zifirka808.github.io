@@ -106,3 +106,31 @@ body {
         transform: rotate(360deg);
     }
 }
+@media (max-width: 1020px) {
+ .card {
+    margin: 0 0;
+ }
+ .row {
+    flex-wrap: wrap;
+ }
+ .col, .col-6, .col-5  {
+    margin: 0 20%;
+ }
+ .col-6, .col-5 {
+   width: 60%;
+}
+}
+@media (max-width: 730px) {
+    .card {
+       margin: 0 0;
+    }
+    .row {
+       flex-wrap: wrap;
+       flex-direction: column;
+    }
+    .col, .col-6, .col-5  {
+        margin: 0 0;
+   }
+   .col-6, .col-5 {
+    width: 100%;}
+   }
