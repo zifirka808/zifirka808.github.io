@@ -1,0 +1,19 @@
+.bg-video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+}
+.bg-video > video {
+    height: 125%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.main-page {
+    margin-top: 0;
+}
+#carouselExampleCaptions {
+    margin: 7% 0;
+}
